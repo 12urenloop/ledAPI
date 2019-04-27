@@ -9,6 +9,11 @@
       "path": "dj02.html",
       "interval": "12:00-18:00",
       "ttl": 10
+    },
+    {
+      "path": "redbull.html",
+      "interval": "12:00-18:00",
+      "ttl": 8
     }
   ]
 }

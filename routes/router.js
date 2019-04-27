@@ -33,7 +33,9 @@ var index = 0;
 router.get('/', function(req, res, next) {
 	  cache.get("path", (err, data) => {
 			var currentScreen = data[index % data.length];
-			res.sendFile(currentScreen.path);
+			var template = fs.readFileSync(currentScreen.path, "utf8");
+			res.send(template.replace("SERVER_IP", "localhost:3000"));
+			//res.sendFile(currentScreen.path);
 			if(targetTime < Date.now()){
 				targetTime = new Date();
 				targetTime.setSeconds(targetTime.getSeconds() + currentScreen.ttl)
