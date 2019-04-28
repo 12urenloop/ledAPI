@@ -1,0 +1,19 @@
+{
+  "screens": [
+    {
+      "path": "dj_bonuzz.html",
+      "interval": "08:00-23:00",
+      "ttl": 10
+    },
+    {
+      "path": "dj_foxa.html",
+      "interval": "08:00-23:00",
+      "ttl": 10
+    },
+    {
+      "path": "redbull.html",
+      "interval": "08:00-24:00",
+      "ttl": 8
+    }
+  ]
+}
