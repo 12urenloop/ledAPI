@@ -1,12 +1,12 @@
 {
   "screens": [
     {
-      "path": "dj01.html",
+      "path": "dj_bonuzz.html",
       "interval": "12:00-18:00",
       "ttl": 10
     },
     {
-      "path": "dj02.html",
+      "path": "dj_foxa.html",
       "interval": "12:00-18:00",
       "ttl": 10
     },
